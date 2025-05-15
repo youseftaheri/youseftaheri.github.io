@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Web Portfolio - Vanilla JS
 
-## Getting Started
+<img src="https://user-images.githubusercontent.com/43790152/220690586-63eaae7b-e684-4f12-8294-7e85534a5907.gif">
 
-First, run the development server:
+### 💻 Live
+Check the deployed version [here][live]
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🎨 Design
+Here's the [figma][design] design for inspiration and help.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ⚒️ Tech Stack
+Following is the tech stack for this:
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🙌🏻 Development environment
+- You will be needing [Go live][go-live-link] extension in case you want to run this locally on VS Code.
+- Otherwise, you can simply open `index.html` file, make changes and refresh the page to see effect
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 👀 Look'n Feel
+Here is some look'n feel from the implementation
 
-## Learn More
+<img src="https://user-images.githubusercontent.com/43790152/220706171-5eb846c2-c137-4d51-a518-624aa5bd3c02.gif">
 
-To learn more about Next.js, take a look at the following resources:
+<img src="https://user-images.githubusercontent.com/43790152/220693107-4f0ab916-04fc-44d1-adfc-c874e42203de.gif">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img src="https://user-images.githubusercontent.com/43790152/220706713-19bd40cf-c038-425c-9f34-196acc957674.gif">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔑 License
+- This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
 
-## Deploy on Vercel
+## 🧑 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Muhammad Hamza
+[![LinkedIn Link](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=linkedin&longCache=true&style=social&label=Connect
+)](https://www.linkedin.com/in/mhmzdev)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You can also follow my GitHub Profile to stay updated about my latest projects:
+
+[![GitHub Follow](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/mhmzdev)
+
+If you liked the repo then kindly support it by giving it a star ⭐
+
+Copyright (c) 2020 MUHAMMAD HAMZA
+
+[live]: https://mhmz.dev
+[design]: https://www.figma.com/file/DpS8wyuqikqL0e4HlSbdG4/Portfolio-for-developers?node-id=0%3A1&t=ZYIuMAgcXoqQg65d-1
+[go-live-link]: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
