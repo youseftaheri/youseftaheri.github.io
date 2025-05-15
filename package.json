@@ -6,14 +6,14 @@
     "build": "next build",
     "export": "next build",
     "deploy": "rm -rf out/ && npm run export && mv out/en out && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git push origin main"
-},
+  },
   "homepage": "https://youseftaheri.github.io",
   "dependencies": {
     "framer-motion": "^12.10.5",
-    "next": "15.3.2",
+    "next": "^15.3.2",
     "next-i18next": "^15.4.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-intersection-observer": "^9.16.0",
     "sharp": "^0.34.1"
   },
