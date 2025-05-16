@@ -126,52 +126,67 @@
     display: inline-block;
     margin-left: 20px;
     font-family: 'Montserrat', sans-serif;
+    z-index: 1000;
   }
   
   .selected-language {
     display: flex;
     align-items: center;
-    padding: 8px 12px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
+    padding: 8px 15px;
+    background: rgba(30, 30, 30, 0.8);
+    border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    color: #f0f0f0;
   }
   
   .selected-language:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(50, 50, 50, 0.9);
+    border-color: rgba(255, 255, 255, 0.2);
   }
   
   .flag {
     font-size: 18px;
-    margin-right: 8px;
+    margin-right: 10px;
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.3));
   }
   
   .language-code {
     font-weight: 600;
     font-size: 14px;
+    letter-spacing: 0.5px;
   }
   
   .material-icons {
     font-size: 18px;
-    margin-left: 5px;
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+    color: #aaa;
+  }
+  
+  .language-switcher.active .material-icons {
+    transform: rotate(180deg);
+    color: #fff;
   }
   
   .language-menu {
     position: absolute;
     top: 120%;
     right: 0;
-    background: #2a2a2a;
-    border-radius: 8px;
+    background: rgba(40, 40, 40, 0.95);
+    border-radius: 12px;
     padding: 8px 0;
-    width: 150px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 180px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
-    transition: all 0.3s ease;
-    z-index: 100;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.175);
+    z-index: 1000;
+    border: 1px solid rgba(255, 255, 255, 0.08);
   }
   
   .language-switcher.active .language-menu {
@@ -183,22 +198,54 @@
   .language-option {
     display: flex;
     align-items: center;
-    padding: 8px 16px;
+    padding: 10px 20px;
     cursor: pointer;
     transition: all 0.2s ease;
   }
   
   .language-option:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.08);
   }
   
   .language-name {
     flex-grow: 1;
-    margin: 0 10px;
+    margin: 0 12px;
     font-size: 14px;
+    color: #f0f0f0;
   }
   
-  /* RTL support for Arabic */
+  /* RTL specific styles */
   [dir="rtl"] .language-name {
     text-align: right;
+    font-family: 'Tahoma', 'Arial', sans-serif; /* Better Arabic font stack */
   }
+  
+  /* Animation for language change */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .language-option {
+    animation: fadeIn 0.3s ease forwards;
+  }
+  
+  .language-option:nth-child(1) { animation-delay: 0.05s; }
+  .language-option:nth-child(2) { animation-delay: 0.1s; }
+  .language-option:nth-child(3) { animation-delay: 0.15s; }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .language-switcher {
+      margin-left: 10px;
+    }
+    
+    .selected-language {
+      padding: 6px 12px;
+    }
+    
+    .language-menu {
+      width: 160px;
+    }
+  }
+  

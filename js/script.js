@@ -1,7 +1,7 @@
 const languageData = {
   'en': { flag: '🇬🇧', code: 'EN', name: 'English' },
   'de': { flag: '🇩🇪', code: 'DE', name: 'Deutsch' },
-  'ar': { flag: '🇰🇼', code: 'AR', name: 'العربية' } // Kuwait flag for Arabic
+  'ar': { flag: '🇰🇼', code: 'AR', name: 'العربية' }
 };
 
 // Main language switching function
