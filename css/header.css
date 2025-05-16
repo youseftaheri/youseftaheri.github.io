@@ -120,3 +120,85 @@
 .dp {
     background-color: transparent;
 }
+
+.language-switcher {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .selected-language {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .selected-language:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .flag {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  
+  .language-code {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .material-icons {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  
+  .language-menu {
+    position: absolute;
+    top: 120%;
+    right: 0;
+    background: #2a2a2a;
+    border-radius: 8px;
+    padding: 8px 0;
+    width: 150px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 100;
+  }
+  
+  .language-switcher.active .language-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  .language-option {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .language-option:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .language-name {
+    flex-grow: 1;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  
+  /* RTL support for Arabic */
+  [dir="rtl"] .language-name {
+    text-align: right;
+  }

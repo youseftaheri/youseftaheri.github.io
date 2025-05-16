@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function mapMetaDataInHeader() {
     var tagElement = document.getElementById("tag-label");
-    tagElement.innerText = 'Full Stack Flutter Expert';
+    tagElement.innerText = 'Full Stack Mobile Expert';
 
     let firstName = 'Yousef';
     let lastName = 'Taheri';
@@ -23,27 +23,15 @@ function mapSocialLinksData() {
     let socials = [
         {
             "icon": "fa fa-linkedin-square",
-            "value": "https://linkedin.com/in/mhmzdev"
+            "value": "https://linkedin.com/in/youseftaheri"
         },
         {
             "icon": "fa fa-github",
-            "value": "https://github.com/mhmzdev"
+            "value": "https://github.com/youseftaheri"
         },
         {
             "icon": "fa fa-medium",
-            "value": "https://mhmzdev.medium.com"
-        },
-        {
-            "icon": "fa fa-facebook-square",
-            "value": "https://facebook.com/mhmzdev"
-        },
-        {
-            "icon": "fa fa-instagram",
-            "value": "https://instagram.com/mhmzdev"
-        },
-        {
-            "icon": "fa fa-twitter",
-            "value": "https://twitter.com/mhmzdev"
+            "value": "https://youseftaheri.medium.com"
         }
     ];
 

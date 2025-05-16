@@ -60,10 +60,6 @@ function mapContactDetails() {
     }
 }
 
-function onMeetClick() {
-    window.open("https://calendly.com/mhmzdev/15min", '_blank');
-}
-
 function currentDate() {
     const current = new Date();
     let monthName = current.toLocaleDateString('en-US', {

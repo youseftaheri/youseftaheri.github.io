@@ -108,9 +108,29 @@
             </ul>
         </div>
         <div class="language-switcher">
-            <button onclick="changeLanguage('en')">🇬🇧 EN</button>
-            <button onclick="changeLanguage('fa')">🇮🇷 FA</button>
-        </div>
+            <div class="selected-language" onclick="toggleLanguageMenu()">
+              <span class="flag">🌐</span>
+              <span class="language-code">EN</span>
+              <i class="material-icons">arrow_drop_down</i>
+            </div>
+            <div class="language-menu">
+              <div class="language-option" onclick="changeLanguage('en')">
+                <span class="flag">🇬🇧</span>
+                <span class="language-name">English</span>
+                <span class="language-code">EN</span>
+              </div>
+              <div class="language-option" onclick="changeLanguage('de')">
+                <span class="flag">🇩🇪</span>
+                <span class="language-name">Deutsch</span>
+                <span class="language-code">DE</span>
+              </div>
+              <div class="language-option" onclick="changeLanguage('ar')">
+                <span class="flag">🇰🇼</span>
+                <span class="language-name">العربية</span>
+                <span class="language-code">AR</span>
+              </div>
+            </div>
+          </div>
     </nav>
 
     <div id="up" class="up">
@@ -119,7 +139,7 @@
 
     <div id="header-div" class="container-fluid">
         <div class="grad-circle" id="mini-circle">
-            <a href="https://github.com/mhmzdev/live-web-portfolio" target="_blank">
+            <a href="https://github.com/youseftaheri" target="_blank">
                 <i id="repo-link" class="fa fa-github"></i>
             </a>
         </div>
@@ -139,7 +159,7 @@
         <div class="tag">
             <div class="trianlge-right"></div>
             <span id="tag" class="txt-type" data-wait="1000ms"
-                data-words='["Flutter Developer", "UI/UX Enthusiast", "A Friend!", "Mentor", "Student"]'>
+                data-words='["Mobile Developer", "Full Stack Developer", "A Friend!", "Active listener", "Mentor"]'>
             </span>
         </div>
 
@@ -252,7 +272,7 @@
         <div id="projects" class="projects"></div>
 
         <div class="see-more">
-            <a target="_blank" href="https://github.com/mhmzdev" class="body2" id="see-more-btn">See More</a>
+            <a target="_blank" href="https://github.com/youseftaheri" class="body2" id="see-more-btn">See More</a>
         </div>
 
     </div>
@@ -298,25 +318,6 @@
         </p>
 
         <div class="contact-row">
-            <div class="current-date-div">
-                <div class="current-date-container">
-                    <div class="current-month">
-                        <span id="month"></span>
-                    </div>
-                    <div class="current-date">
-                        <span id="date"></span>
-                    </div>
-                    <div class="current-day">
-                        <span id="day"></span>
-                    </div>
-                </div>
-
-                <button type="button" onclick="onMeetClick()" class="btn btn-success" id="meet-btn">
-                    <i id="meet-icon" class="fa fa-video-camera"></i>
-                    <span id="meet-btn-text">Let's have a 15 min call</span>
-                </button>
-            </div>
-
             <div id="contact-info-div" class="contact-info-div">
                 <div class="line"></div>
                 <div id="social-contact-icons" class="social-contact-icons"></div>
