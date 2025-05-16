@@ -11,7 +11,7 @@ const translations = {
     },
     fa: {
       "home": "خانه",
-      "abnav_aboutout": "درباره من",
+      "nav_about": "درباره من",
       "skills": "مهارت‌ها",
       "projects": "پروژه‌ها",
       "contact": "تماس",

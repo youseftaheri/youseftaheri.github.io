@@ -7,18 +7,18 @@ function mapContactDetails() {
     let contactInfo = [
         {
             "icon": "fa fa-phone",
-            "label": "+92 311 1559877",
-            "link": "https://wa.me/923111559877"
+            "label": "+98 917 3055128",
+            "link": "https://wa.me/989173055128"
         },
         {
             "icon": "fa fa-envelope",
-            "label": "hamza.6.shakeel@gmail.com",
-            "link": "mailto:hamza.6.shakeel@gmail.com"
+            "label": "neuer.youseftaheri@gmail.com",
+            "link": "mailto:neuer.youseftaheri@gmail.com"
         },
         {
             "icon": "images/svgs/upwork.svg",
             "label": "Hire Me",
-            "link": "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"
+            "link": "https://wa.me/989173055128"
         }
     ];
 

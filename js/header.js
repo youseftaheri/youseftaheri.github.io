@@ -8,8 +8,8 @@ function mapMetaDataInHeader() {
     var tagElement = document.getElementById("tag-label");
     tagElement.innerText = 'Full Stack Flutter Expert';
 
-    let firstName = 'Muhammad';
-    let lastName = 'Hamza';
+    let firstName = 'Yousef';
+    let lastName = 'Taheri';
 
     var firstNameElement = document.getElementById("first-name");
     firstNameElement.innerHTML = firstName;
