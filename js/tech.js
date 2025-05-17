@@ -75,8 +75,18 @@ function mapTechData() {
             "type": "back-tech"
         },
         {
-            "name": "Firebase",
-            "icon": "images/tech/firebase.svg",
+            "name": "SQL Server",
+            "icon": "images/tech/sqlserver.svg",
+            "type": "database-tech"
+        },
+        {
+            "name": "SQLite",
+            "icon": "images/tech/sqlite.svg",
+            "type": "database-tech"
+        },
+        {
+            "name": "ClickHouse",
+            "icon": "images/tech/clickhouse.svg",
             "type": "database-tech"
         },
         {
@@ -85,8 +95,8 @@ function mapTechData() {
             "type": "database-tech"
         },
         {
-            "name": "SQL",
-            "icon": "images/tech/sql.svg",
+            "name": "Firebase",
+            "icon": "images/tech/firebase.svg",
             "type": "database-tech"
         },
         {
