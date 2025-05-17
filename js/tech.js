@@ -5,6 +5,21 @@ document.addEventListener("DOMContentLoaded", function () {
 function mapTechData() {
     let tech = [
         {
+            "name": "Android",
+            "icon": "images/tech/android.svg",
+            "type": "mobile-tech"
+        },
+        {
+            "name": "Kotlin",
+            "icon": "images/tech/kotlin.svg",
+            "type": "mobile-tech"
+        },
+        {
+            "name": "Java",
+            "icon": "images/tech/java.svg",
+            "type": "mobile-tech"
+        },
+        {
             "name": "Flutter",
             "icon": "images/tech/flutter.svg",
             "type": "mobile-tech"
@@ -15,44 +30,49 @@ function mapTechData() {
             "type": "mobile-tech"
         },
         {
+            "name": "Next.js",
+            "icon": "images/tech/nextjs.svg",
+            "type": "front-tech"
+        },
+        {
             "name": "HTML 5",
             "icon": "images/tech/html.svg",
-            "type": "web-tech"
+            "type": "front-tech"
         },
         {
             "name": "CSS 3",
             "icon": "images/tech/css.svg",
-            "type": "web-tech"
+            "type": "front-tech"
         },
         {
             "name": "Bootstrap",
             "icon": "images/tech/bootstrap.svg",
-            "type": "web-tech"
+            "type": "front-tech"
         },
         {
             "name": "Javascript",
             "icon": "images/tech/js.svg",
-            "type": "web-tech"
+            "type": "front-tech"
         },
         {
-            "name": "Flask Restful",
-            "icon": "images/tech/flask.svg",
-            "type": "server-tech"
+            "name": "Nest.js",
+            "icon": "images/tech/nestjs.svg",
+            "type": "back-tech"
         },
         {
             "name": "Node.js",
             "icon": "images/tech/node.svg",
-            "type": "server-tech"
+            "type": "back-tech"
         },
         {
-            "name": "Express.js",
-            "icon": "images/tech/express.svg",
-            "type": "server-tech"
+            "name": "Python",
+            "icon": "images/tech/python.svg",
+            "type": "back-tech"
         },
         {
             "name": "REST Apis",
             "icon": "images/tech/api.svg",
-            "type": "server-tech"
+            "type": "back-tech"
         },
         {
             "name": "Firebase",
@@ -75,6 +95,11 @@ function mapTechData() {
             "type": "vc-tech"
         },
         {
+            "name": "Gitlab",
+            "icon": "images/tech/gitlab.svg",
+            "type": "vc-tech"
+        },
+        {
             "name": "Jira",
             "icon": "images/tech/jira.svg",
             "type": "vc-tech"
@@ -85,19 +110,9 @@ function mapTechData() {
             "type": "vc-tech"
         },
         {
-            "name": "Notion",
-            "icon": "images/tech/notion.svg",
+            "name": "Azure DevOps",
+            "icon": "images/tech/azure-devops.svg",
             "type": "vc-tech"
-        },
-        {
-            "name": "Figma",
-            "icon": "images/tech/figma.svg",
-            "type": "design-tech"
-        },
-        {
-            "name": "Adobe XD",
-            "icon": "images/tech/adobexd.svg",
-            "type": "design-tech"
         }
     ];
 
