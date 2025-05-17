@@ -80,19 +80,19 @@ function mapSocialLinksData() {
 function mapStatsData() {
     let stats = [
         {
-            "value": "4+",
-            "text-1": "Years",
-            "text-2": "Experience"
+            "value": "15+",
+            "text-1": "Years Experience",
+            "text-2": "as Software Engineer"
         },
         {
-            "value": "35+",
+            "value": "7+",
+            "text-1": "Years Experience",
+            "text-2": "as Mobile Developer"
+        },
+        {
+            "value": "32+",
             "text-1": "Projects Completed",
-            "text-2": "in 10+ Countries"
-        },
-        {
-            "value": "109k+",
-            "text-1": "Content",
-            "text-2": "Reach & Views"
+            "text-2": "in Fin-tech & E-commerce"
         }
     ];
 
