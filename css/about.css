@@ -86,4 +86,5 @@
 
 #about-img {
     background-color: var(--bg-dark);
+    width: 50%;
 }
