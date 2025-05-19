@@ -16,7 +16,7 @@ function mapContactDetails() {
             "link": "mailto:neuer.youseftaheri@gmail.com"
         },
         {
-            "icon": "images/svgs/upwork.svg",
+            "icon": "fa fa-linkedin-square",
             "label": "Hire Me",
             "link": "https://wa.me/989173055128"
         }
