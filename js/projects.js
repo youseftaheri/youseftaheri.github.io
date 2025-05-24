@@ -81,12 +81,10 @@ function mapProjectsData() {
             "type": "Retired",
             "labels": [
                 {
-                    "title": "Play",
-                    "link": ""
+                    "title": "Play"
                 },
                 {
-                    "title": "Web",
-                    "link": ""
+                    "title": "Web"
                 }
             ]
         },
@@ -96,12 +94,10 @@ function mapProjectsData() {
             "type": "Retired",
             "labels": [
                 {
-                    "title": "Play",
-                    "link": ""
+                    "title": "Play"
                 },
                 {
-                    "title": "Web",
-                    "link": ""
+                    "title": "Web"
                 }
             ]
         }
