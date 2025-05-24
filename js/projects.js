@@ -92,7 +92,7 @@ function mapProjectsData() {
         },
         {
             "title": "Amoozkadeh",
-            "image": "images/projects/nobataneh.png",
+            "image": "images/projects/amoozkadeh.png",
             "type": "Retired",
             "labels": [
                 {
