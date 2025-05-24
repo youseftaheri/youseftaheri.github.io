@@ -62,38 +62,38 @@ function mapCertificatesData() {
     ];
 
     for (var i = 0; i < certificates.length; i++) {
-        var project = certificates[i];
-        var title = project.title;
-        var type = project.type;
-        var image = project.image;
+        var certificate = certificates[i];
+        var title = certificate.title;
+        var type = certificate.type;
+        var image = certificate.image;
 
         var card = document.createElement('div');
-        card.className = "project-card";
+        card.className = "certificate-card";
 
         var imageDiv = document.createElement('div');
         imageDiv.className = "p-image";
-        var projectLabel = document.createElement("div");
-        projectLabel.className = "label p-type";
-        projectLabel.innerHTML = type;
+        var certificateLabel = document.createElement("div");
+        certificateLabel.className = "label p-type";
+        certificateLabel.innerHTML = type;
 
-        var projectImg = document.createElement("img");
-        projectImg.className = "p-image-bg";
-        projectImg.src = image;
-        projectImg.alt = title;
+        var certificateImg = document.createElement("img");
+        certificateImg.className = "p-image-bg";
+        certificateImg.src = image;
+        certificateImg.alt = title;
 
-        imageDiv.appendChild(projectLabel);
-        imageDiv.appendChild(projectImg);
+        imageDiv.appendChild(certificateLabel);
+        imageDiv.appendChild(certificateImg);
 
-        var projectName = document.createElement("p");
-        projectName.className = "body1 p-title";
-        projectName.innerHTML = title;
+        var certificateName = document.createElement("p");
+        certificateName.className = "body1 p-title";
+        certificateName.innerHTML = title;
 
         var labels = document.createElement("div");
         labels.className = "p-labels";
 
-        for (var j = 0; j < project.labels.length; j++) {
-            var title = project.labels[j]["title"];
-            var link = project.labels[j]["link"];
+        for (var j = 0; j < certificate.labels.length; j++) {
+            var title = certificate.labels[j]["title"];
+            var link = certificate.labels[j]["link"];
 
             var label = document.createElement('a');
             label.className = "p-label";
@@ -116,9 +116,9 @@ function mapCertificatesData() {
         }
 
 
-        card.appendChild(projectLabel);
-        card.appendChild(projectImg);
-        card.appendChild(projectName);
+        card.appendChild(certificateLabel);
+        card.appendChild(certificateImg);
+        card.appendChild(certificateName);
         card.appendChild(labels);
 
         var certificatesDiv = document.getElementById("certificates");
