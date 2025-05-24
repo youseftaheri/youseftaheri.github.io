@@ -113,6 +113,11 @@
         padding-right: 8%;
     }
 
+    .certificates {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
     .cw-stats-row {
         flex-wrap: wrap;
         align-items: center;
