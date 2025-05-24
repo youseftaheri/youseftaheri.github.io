@@ -5,6 +5,107 @@ document.addEventListener("DOMContentLoaded", function () {
 function mapProjectsData() {
     let projects = [
         {
+            "title": "Khedmatazma (Customers)",
+            "image": "images/projects/khedmatazma1.png",
+            "type": "Product",
+            "labels": [
+                {
+                    "title": "Play",
+                    "link": "https://play.google.com/store/apps/details?id=com.khedmatazma.customer&hl=en"
+                },
+                {
+                    "title": "Web",
+                    "link": "https://khedmatazma.com/"
+                }
+            ]
+        },
+        {
+            "title": "Khedmatazma (Providers)",
+            "image": "images/projects/khedmatazma2.png",
+            "type": "Product",
+            "labels": [
+                {
+                    "title": "Play",
+                    "link": "https://play.google.com/store/apps/details?id=com.khedmatazma.provider&hl=en"
+                },
+                {
+                    "title": "Web",
+                    "link": "https://khedmatazma.com/"
+                }
+            ]
+        },
+        {
+            "title": "Mellichange",
+            "image": "images/projects/mellichange.png",
+            "type": "Product",
+            "labels": [
+                {
+                    "title": "Play",
+                    "link": "https://mellichange.com/application/"
+                },
+                {
+                    "title": "Web",
+                    "link": "https://mellichange.com/"
+                }
+            ]
+        },
+        {
+            "title": "Salimiexchange (Legacy Mellichange)",
+            "image": "images/projects/salimiexchange.png",
+            "type": "Legacy",
+            "labels": [
+                {
+                    "title": "Play",
+                    "link": "https://mellichange.com/application/"
+                },
+                {
+                    "title": "Web",
+                    "link": "https://mellichange.com/"
+                }
+            ]
+        },
+        {
+            "title": "Mafia",
+            "image": "images/projects/mafia.png",
+            "type": "Open Source",
+            "labels": [
+                {
+                    "title": "GitHub",
+                    "link": "https://github.com/youseftaheri/mafia"
+                }
+            ]
+        },
+        {
+            "title": "Nobataneh",
+            "image": "images/projects/nobataneh.png",
+            "type": "Retired",
+            "labels": [
+                {
+                    "title": "Play",
+                    "link": ""
+                },
+                {
+                    "title": "Web",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "title": "Amoozkadeh",
+            "image": "images/projects/nobataneh.png",
+            "type": "Retired",
+            "labels": [
+                {
+                    "title": "Play",
+                    "link": ""
+                },
+                {
+                    "title": "Web",
+                    "link": ""
+                }
+            ]
+        },
+        {
             "title": "The Holy Qur'an",
             "image": "images/projects/quran.png",
             "type": "Open Source",
