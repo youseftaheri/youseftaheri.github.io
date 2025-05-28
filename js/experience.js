@@ -34,6 +34,35 @@ function mapExperienceData() {
                 "Developed the applications to handle almost 1.4M international users."
                 
             ]
+        },
+        {
+            "org": "Golden Mind",
+            "position": "Mobile Developer (Full Time)",
+            "duration": "Jul 2020 – May 2023",
+            "technologies": [
+                "Android SDK",
+                "Kotlin",
+                "Flutter SDK",
+                "Dart",
+                "MVVM",
+                "Jetpack Compose",
+                "SQL Server",
+                "ClickHouse",
+                "Next.js",
+                "Nest.js",
+                "Python",
+                "ASP.NET Core",
+                "C#",
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "DDD"
+            ],
+            "details": [
+                "Developed an android application to handle almost 11K users with around 10K cryptocurrency transactions daily.",
+                "Used both of native and cross-platform development approaches to develop 6 applications in the field of fin-tech and e-commerce.",
+                "Collaborated with a team of 12 colleagues to achieve goals and expectations."                
+            ]
         }
     ];
 
