@@ -99,6 +99,6 @@
     box-shadow: 0 0 10px var(--primary-green);
 }
 
-.exp-label:hover .p-label-text {
+.exp-label:hover .exp-label-text {
     color: var(--bg-dark);
 }
