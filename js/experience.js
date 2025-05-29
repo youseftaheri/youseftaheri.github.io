@@ -95,79 +95,66 @@ function mapExperienceData() {
             "duration": "Nov 2018 – Nov 2019",
             "logo": "khedmatazma.png",
             "technologies": [
-                "Android SDK", 
-                "Kotlin", 
-                "Flutter SDK", 
-                "Dart", 
-                "Coroutines Flow", 
-                "MVVM",
-                "CI/CD", 
-                "Jira", 
-                "Jetpack Compose", 
-                "NDK",
-                "State Management", 
-                "Stream", 
-                "BloC", 
-                "Navigation Components"
+                "Adroid SDK", 
+                "Java", 
+                "MVP", 
+                "Scrum", 
+                "Glide", 
+                "Butterknife", 
+                "Google/Adjust analytics", 
+                "Trello", 
+                "Event bus",
+                "Firebase", 
+                "Google Map API", 
+                "ProGuard", 
+                "Gradle", 
+                "Git", 
+                "GitKraken", 
+                "Gitlab"
             ],
             "details": [
-                "Developed an android application to handle almost 11K users with around 10K cryptocurrency transactions daily.",
-                "Used both of native and cross-platform development approaches to develop 6 applications in the field of fin-tech and e-commerce.",
-                "Collaborated with a team of 12 colleagues to achieve goals and expectations."                
+                "Acquired 250K new users by implementing a mobile application for customers and providers.",
+                "Used ProGuard to minify, obfuscate, and optimize the code so that the size of the application was reduced by %60.",
+                "Collaborated closely with almost 40 colleagues in the form of agile methodology, by implementing product requirements, e.g., about Firebase and Adjust analytics, data mining, customized FCM notifications for different campaigns, etc.",                
+                "Developed the application of Khedmatazma which invited to the WBAF 2019 as one of 40 top start-ups of the world.",                
             ]
         },
         {
-            "org": "Golden Mind",
+            "org": "Freelancer",
             "position": "Mobile Developer (Full Time)",
-            "duration": "Jul 2020 – May 2023",
-            "logo": "goldenmind.png",
+            "duration": "Sep 2015 – Oct 2018",
+            "logo": "freelancer.png",
             "technologies": [
                 "Android SDK", 
-                "Kotlin", 
-                "Flutter SDK", 
-                "Dart", 
-                "Coroutines Flow", 
-                "MVVM",
-                "CI/CD", 
-                "Jira", 
-                "Jetpack Compose", 
-                "NDK",
-                "State Management", 
-                "Stream", 
-                "BloC", 
-                "Navigation Components"
+                "Java", 
+                "SQLite", 
+                "PHP", 
+                "MySQL", 
+                "Firebase", 
+                "UI/UX design", 
+                "JavaScript", 
+                "HTML", 
+                "CSS", 
+                "RSA/AES Encryption"
             ],
             "details": [
-                "Developed an android application to handle almost 11K users with around 10K cryptocurrency transactions daily.",
-                "Used both of native and cross-platform development approaches to develop 6 applications in the field of fin-tech and e-commerce.",
-                "Collaborated with a team of 12 colleagues to achieve goals and expectations."                
+                "Developed e-commerce android applications."                
             ]
         },
         {
-            "org": "Golden Mind",
-            "position": "Mobile Developer (Full Time)",
-            "duration": "Jul 2020 – May 2023",
-            "logo": "goldenmind.png",
+            "org": "IAU & PNU Universities",
+            "position": "University Teacher/Lecturer (Part Time)",
+            "duration": "Sep 2008 – Jun 2018",
+            "logo": "university.png",
             "technologies": [
-                "Android SDK", 
-                "Kotlin", 
-                "Flutter SDK", 
-                "Dart", 
-                "Coroutines Flow", 
-                "MVVM",
-                "CI/CD", 
-                "Jira", 
-                "Jetpack Compose", 
-                "NDK",
-                "State Management", 
-                "Stream", 
-                "BloC", 
-                "Navigation Components"
+                "OOP / C++", 
+                "Data Structure", 
+                "Database / SQL Server", 
+                "Software Engineering Paradigms / UML"
             ],
             "details": [
-                "Developed an android application to handle almost 11K users with around 10K cryptocurrency transactions daily.",
-                "Used both of native and cross-platform development approaches to develop 6 applications in the field of fin-tech and e-commerce.",
-                "Collaborated with a team of 12 colleagues to achieve goals and expectations."                
+                "Mentored or taught almost 3K software engineering students.",
+                "Taught courses such as:"                
             ]
         }
     ];
