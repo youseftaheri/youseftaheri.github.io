@@ -10,7 +10,7 @@ function mapExperienceData() {
             "org": "Abnous",
             "position": "Mobile Developer (Full Time)",
             "duration": "Jun 2023 - Present",
-            "logo": "Jun 2023 - Present",
+            "logo": "images/experiences/arda.png",
             "technologies": [
                 "Android SDK",
                 "Kotlin",
@@ -71,6 +71,14 @@ function mapExperienceData() {
         var expCard = document.createElement("div");
         expCard.className = "exp-card";
 
+        var logo = exp[i]["logo"];
+        var logoDiv = document.createElement('div');
+        logoDiv.className = "exp-logo";
+        var logoImg = document.createElement("img");
+        logoImg.className = "exp-image-bg";
+        logoImg.src = image;
+        logoDiv.appendChild(logoImg);
+
         var expMetaDiv = document.createElement("div");
         expMetaDiv.className = "exp-meta";
 
@@ -86,10 +94,6 @@ function mapExperienceData() {
         session.className = "body2 exp-session";
         session.innerHTML = exp[i]["duration"];
 
-        var technologiesHeading = document.createElement("span");
-        technologiesHeading.className = "body2 exp-tech";
-        technologiesHeading.innerHTML = "Technologies";
-
         var technologiesList = document.createElement("ul");
         technologiesList.className = "exp-tech-list";
 
@@ -103,11 +107,12 @@ function mapExperienceData() {
             techName.innerHTML = exp[i]["technologies"][k];
             technologiesList.appendChild(techName);
         }
+        
+        expMetaDiv.appendChild(logoDiv);
         expMetaDiv.appendChild(orgName);
         expMetaDiv.appendChild(position);
         expMetaDiv.appendChild(session);
         expMetaDiv.appendChild(technologiesHeading);
-        // expMetaDiv.appendChild(technologiesList);
         expCard.appendChild(expMetaDiv);
 
         var detailsList = document.createElement("ul");

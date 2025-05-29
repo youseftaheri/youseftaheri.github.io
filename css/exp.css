@@ -102,3 +102,8 @@
 .exp-label:hover .exp-label-text {
     color: var(--bg-dark);
 }
+
+.exp-image-bg {
+    border-radius: 8px;
+    max-width: 100%;
+}
