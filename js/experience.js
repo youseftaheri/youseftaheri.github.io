@@ -7,7 +7,7 @@ function mapExperienceData() {
 
     let exp = [
         {
-            "org": "Abnous",
+            "org": "Arda",
             "position": "Mobile Developer (Full Time)",
             "duration": "Jun 2023 - Present",
             "logo": "arda.png",
@@ -42,23 +42,127 @@ function mapExperienceData() {
             "duration": "Jul 2020 – May 2023",
             "logo": "goldenmind.png",
             "technologies": [
-                "Android SDK",
-                "Kotlin",
-                "Flutter SDK",
-                "Dart",
+                "Android SDK", 
+                "Kotlin", 
+                "Flutter SDK", 
+                "Dart", 
+                "Coroutines Flow", 
                 "MVVM",
-                "Jetpack Compose",
-                "SQL Server",
-                "ClickHouse",
-                "Next.js",
-                "Nest.js",
-                "Python",
-                "ASP.NET Core",
-                "C#",
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "DDD"
+                "CI/CD", 
+                "Jira", 
+                "Jetpack Compose", 
+                "NDK",
+                "State Management", 
+                "Stream", 
+                "BloC", 
+                "Navigation Components"
+            ],
+            "details": [
+                "Developed an android application to handle almost 11K users with around 10K cryptocurrency transactions daily.",
+                "Used both of native and cross-platform development approaches to develop 6 applications in the field of fin-tech and e-commerce.",
+                "Collaborated with a team of 12 colleagues to achieve goals and expectations."                
+            ]
+        },
+        {
+            "org": "Utabpars",
+            "position": "Android Developer (Contract)",
+            "duration": "Dec 2019 – Jun 2020",
+            "logo": "utab.png",
+            "technologies": [
+                "Android SDK", 
+                "Java", 
+                "Kotlin", 
+                "RxJava", 
+                "RxAndroid", 
+                "Data Binding", 
+                "MVVM", 
+                "Room", 
+                "Gitlab CI", 
+                "Dagger", 
+                "UI/Unit Testing", 
+                "Retrofit", 
+                "SQLite"
+            ],
+            "details": [
+                "Designed and Developed an educational app to serve more than 11K academies.",
+                "Suggested and did migration from Java to Kotlin.",
+                "Involved in UI and Unit testing and Code Reviews."                
+            ]
+        },
+        {
+            "org": "Khedmatazma",
+            "position": "Android Developer (Full Time)",
+            "duration": "Nov 2018 – Nov 2019",
+            "logo": "khedmatazma.png",
+            "technologies": [
+                "Android SDK", 
+                "Kotlin", 
+                "Flutter SDK", 
+                "Dart", 
+                "Coroutines Flow", 
+                "MVVM",
+                "CI/CD", 
+                "Jira", 
+                "Jetpack Compose", 
+                "NDK",
+                "State Management", 
+                "Stream", 
+                "BloC", 
+                "Navigation Components"
+            ],
+            "details": [
+                "Developed an android application to handle almost 11K users with around 10K cryptocurrency transactions daily.",
+                "Used both of native and cross-platform development approaches to develop 6 applications in the field of fin-tech and e-commerce.",
+                "Collaborated with a team of 12 colleagues to achieve goals and expectations."                
+            ]
+        },
+        {
+            "org": "Golden Mind",
+            "position": "Mobile Developer (Full Time)",
+            "duration": "Jul 2020 – May 2023",
+            "logo": "goldenmind.png",
+            "technologies": [
+                "Android SDK", 
+                "Kotlin", 
+                "Flutter SDK", 
+                "Dart", 
+                "Coroutines Flow", 
+                "MVVM",
+                "CI/CD", 
+                "Jira", 
+                "Jetpack Compose", 
+                "NDK",
+                "State Management", 
+                "Stream", 
+                "BloC", 
+                "Navigation Components"
+            ],
+            "details": [
+                "Developed an android application to handle almost 11K users with around 10K cryptocurrency transactions daily.",
+                "Used both of native and cross-platform development approaches to develop 6 applications in the field of fin-tech and e-commerce.",
+                "Collaborated with a team of 12 colleagues to achieve goals and expectations."                
+            ]
+        },
+        {
+            "org": "Golden Mind",
+            "position": "Mobile Developer (Full Time)",
+            "duration": "Jul 2020 – May 2023",
+            "logo": "goldenmind.png",
+            "technologies": [
+                "Android SDK", 
+                "Kotlin", 
+                "Flutter SDK", 
+                "Dart", 
+                "Coroutines Flow", 
+                "MVVM",
+                "CI/CD", 
+                "Jira", 
+                "Jetpack Compose", 
+                "NDK",
+                "State Management", 
+                "Stream", 
+                "BloC", 
+                "Navigation Components"
             ],
             "details": [
                 "Developed an android application to handle almost 11K users with around 10K cryptocurrency transactions daily.",

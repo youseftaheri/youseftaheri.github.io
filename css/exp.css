@@ -74,7 +74,7 @@
 
 .exp-label {
     margin: 0; /* remove right margin to rely on gap */
-    padding: 3px 3px; /* smaller padding */
+    padding: 3px; /* smaller padding */
     display: inline-flex;
     justify-content: center;
     align-items: center;
