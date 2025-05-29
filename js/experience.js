@@ -112,7 +112,6 @@ function mapExperienceData() {
         expMetaDiv.appendChild(orgName);
         expMetaDiv.appendChild(position);
         expMetaDiv.appendChild(session);
-        expMetaDiv.appendChild(technologiesHeading);
         expCard.appendChild(expMetaDiv);
 
         var detailsList = document.createElement("ul");
