@@ -10,6 +10,7 @@ function mapExperienceData() {
             "org": "Abnous",
             "position": "Mobile Developer (Full Time)",
             "duration": "Jun 2023 - Present",
+            "logo": "Jun 2023 - Present",
             "technologies": [
                 "Android SDK",
                 "Kotlin",
@@ -92,6 +93,10 @@ function mapExperienceData() {
         var technologiesList = document.createElement("ul");
         technologiesList.className = "exp-tech-list";
 
+        var logo = document.createElement("div");
+        logo.className = "grad-circle";
+        logo.innerHTML = exp[i]["org"];
+
         for (var k = 0; k < exp[i]["technologies"].length; k++) {
             var techName = document.createElement("li");
             techName.className = "body2 exp-tech-item";
@@ -114,6 +119,27 @@ function mapExperienceData() {
             detail.innerHTML = exp[i]["details"][k];
             detailsList.appendChild(detail);
         }
+
+
+        var labels = document.createElement("div");
+        labels.className = "p-labels";
+
+        for (var j = 0; j < exp[i]["technologies"].length; j++) {
+            var title = exp[i]["technologies"][j];
+
+            var label = document.createElement('a');
+            label.className = "p-label";
+
+            var labelText = document.createElement("span");
+            labelText.className = "label p-label-text";
+            labelText.innerHTML = title;
+
+            label.target = "_blank";
+
+            label.appendChild(labelText);
+            labels.appendChild(label);
+        }
+        detailsList.appendChild(labels);
 
         expCard.appendChild(detailsList);
 
