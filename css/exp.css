@@ -65,7 +65,8 @@
 
 .p-labels {
     padding-left: 3%;
-    display: flex;
+    width: 100%;
+    /* display: flex; */
 }
 
 .p-label {
@@ -87,10 +88,6 @@
     cursor: pointer;
     background-color: white;
     box-shadow: 0px 0px 10px var(--primary-green);
-}
-
-.p-label:hover .p-label-icon {
-    color: var(--bg-dark);
 }
 
 .p-label-text {
