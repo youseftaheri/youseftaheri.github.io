@@ -104,8 +104,9 @@
 }
 
 .exp-logo {
-    width: 60px;          /* adjust size as needed */
+    width: 150px;          /* adjust size as needed */
     height: auto;
     margin-bottom: 10px;  /* space between logo and org name */
     display: block;
+    background-color: transparent;
 }
