@@ -76,7 +76,7 @@ function mapExperienceData() {
         logoDiv.className = "exp-logo";
         var logoImg = document.createElement("img");
         logoImg.className = "exp-image-bg";
-        logoImg.src = image;
+        logoImg.src = logo;
         logoDiv.appendChild(logoImg);
 
         var expMetaDiv = document.createElement("div");
