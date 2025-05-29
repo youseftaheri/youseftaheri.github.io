@@ -40,6 +40,7 @@ function mapExperienceData() {
             "org": "Golden Mind",
             "position": "Mobile Developer (Full Time)",
             "duration": "Jul 2020 – May 2023",
+            "logo": "images/experiences/arda.png",
             "technologies": [
                 "Android SDK",
                 "Kotlin",
