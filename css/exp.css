@@ -65,7 +65,9 @@
 
 .p-labels {
     padding-left: 3%;
-    width: 100%;
+    width: 50%;
+    background-color: var(--bg-dark);
+
     /* display: flex; */
 }
 
@@ -79,7 +81,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 6px;
-    background-color: var(--bg-dark);
+    background-color: var(--bg);
     transition: 0.5s;
 }
 
