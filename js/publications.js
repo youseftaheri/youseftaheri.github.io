@@ -17,7 +17,7 @@ function mapPublicationsData() {
         },
         {
             "title": "Continuous Persian Phones Recognition Using Lip Reading",
-            "image": "images/publications/Phones.jpg",
+            "image": "images/publications/phones.jpg",
             "type": "Paper",
             "labels": [
                 {
@@ -60,13 +60,13 @@ function mapPublicationsData() {
         card.className = "publication-card";
 
         var imageDiv = document.createElement('div');
-        imageDiv.className = "p-image";
+        imageDiv.className = "pub-image";
         var publicationLabel = document.createElement("div");
-        publicationLabel.className = "label p-type";
+        publicationLabel.className = "label pub-type";
         publicationLabel.innerHTML = type;
 
         var publicationImg = document.createElement("img");
-        publicationImg.className = "p-image-bg";
+        publicationImg.className = "pub-image-bg";
         publicationImg.src = image;
         publicationImg.alt = title;
 
@@ -74,25 +74,25 @@ function mapPublicationsData() {
         imageDiv.appendChild(publicationImg);
 
         var publicationName = document.createElement("p");
-        publicationName.className = "body1 p-title";
+        publicationName.className = "body1 pub-title";
         publicationName.innerHTML = title;
 
         var labels = document.createElement("div");
-        labels.className = "p-labels";
+        labels.className = "pub-labels";
 
         for (var j = 0; j < publication.labels.length; j++) {
             var title = publication.labels[j]["title"];
             var link = publication.labels[j]["link"];
 
             var label = document.createElement('a');
-            label.className = "p-label";
+            label.className = "pub-label";
             var labelIcon = document.createElement("i");
 
            
-            labelIcon.className = "p-label-icon fa fa-globe";
+            labelIcon.className = "pub-label-icon fa fa-globe";
 
             var labelText = document.createElement("span");
-            labelText.className = "label p-label-text";
+            labelText.className = "label pub-label-text";
             labelText.innerHTML = title;
 
             label.href = link;

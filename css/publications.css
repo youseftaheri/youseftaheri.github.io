@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--bg-dark);
+    background-color: var(--bg);
 }
 
 #publication-subtitle {
@@ -24,21 +24,21 @@
 
 .publication-card {
     margin: 1em;
-    background-color: var(--bg);
-    height: 400px;
+    background-color: var(--bg-dark);
+    height: 650px;
     width: 350px;
     border-radius: 8px;
     box-shadow: 0px 13px 10px rgba(0, 0, 0, 0.25);
     transition: 0.5s;
 }
 
-.p-type {
+.pub-type {
     margin: 0.5%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 6px;
-    background-color: var(--bg-dark);
+    background-color: var(--bg);
     position: absolute;
     color: var(--primary-green);
     padding-top: 0.2%;
@@ -48,30 +48,30 @@
     transition: 0.5s;
 }
 
-.p-image-bg {
+.pub-image-bg {
     border-radius: 8px;
     max-width: 100%;
 }
 
-.p-title {
+.pub-title {
     color: white;
     padding-top: 5%;
     padding-left: 3%;
 }
 
-.p-labels {
+.pub-labels {
     padding-left: 3%;
     display: flex;
 }
 
-.p-label-icon {
+.pub-label-icon {
     background-color: transparent;
     color: var(--primary-green);
     font-size: 12px;
     transition: 0.5s;
 }
 
-.p-label {
+.pub-label {
     margin-right: 3%;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
@@ -81,30 +81,30 @@
     justify-content: center;
     align-items: center;
     border-radius: 6px;
-    background-color: var(--bg-dark);
+    background-color: var(--bg);
     transition: 0.5s;
 }
 
-.p-label:hover {
+.pub-label:hover {
     text-decoration: none;
     cursor: pointer;
     background-color: white;
     box-shadow: 0px 0px 10px var(--primary-green);
 }
 
-.p-label:hover .p-label-icon {
-    color: var(--bg-dark);
+.pub-label:hover .pub-label-icon {
+    color: var(--bg);
 }
 
-.p-label-text {
+.pub-label-text {
     margin-left: 15%;
     background-color: transparent;
     color: var(--primary-green);
     transition: .5s;
 }
 
-.p-label:hover .p-label-text {
-    color: var(--bg-dark);
+.pub-label:hover .pub-label-text {
+    color: var(--bg);
 }
 
 .publication-card:hover {
