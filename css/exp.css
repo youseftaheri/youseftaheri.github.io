@@ -74,7 +74,7 @@
 
 .exp-label {
     margin: 0; /* remove right margin to rely on gap */
-    padding: 3px 6px; /* smaller padding */
+    padding: 3px 3px; /* smaller padding */
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +103,9 @@
     color: var(--bg-dark);
 }
 
-.exp-image-bg {
-    border-radius: 8px;
-    max-width: 100%;
+.exp-logo {
+    width: 60px;          /* adjust size as needed */
+    height: auto;
+    margin-bottom: 10px;  /* space between logo and org name */
+    display: block;
 }
