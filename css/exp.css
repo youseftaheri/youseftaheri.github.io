@@ -62,7 +62,7 @@
     color: white;
 }
 
-.p-labels {
+.exp-labels {
     padding-left: 0; /* remove extra padding */
     width: 100%; /* fit full width below details */
     background-color: var(--bg-dark);
@@ -72,7 +72,7 @@
     margin-top: 20px; /* some spacing from details list */
 }
 
-.p-label {
+.exp-label {
     margin: 0; /* remove right margin to rely on gap */
     padding: 6px 12px; /* smaller padding */
     display: inline-flex;
@@ -85,20 +85,20 @@
     width: auto; /* fit to text */
 }
 
-.p-label-text {
+.exp-label-text {
     margin-left: 0; /* remove large margin to fit text width */
     background-color: transparent;
     color: var(--primary-green);
     transition: 0.5s;
 }
 
-.p-label:hover {
+.exp-label:hover {
     text-decoration: none;
     cursor: pointer;
     background-color: white;
     box-shadow: 0 0 10px var(--primary-green);
 }
 
-.p-label:hover .p-label-text {
+.exp-label:hover .p-label-text {
     color: var(--bg-dark);
 }

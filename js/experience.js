@@ -122,16 +122,16 @@ function mapExperienceData() {
 
 
         var labels = document.createElement("div");
-        labels.className = "p-labels";
+        labels.className = "exp-labels";
 
         for (var j = 0; j < exp[i]["technologies"].length; j++) {
             var title = exp[i]["technologies"][j];
 
             var label = document.createElement('a');
-            label.className = "p-label";
+            label.className = "exp-label";
 
             var labelText = document.createElement("span");
-            labelText.className = "label p-label-text";
+            labelText.className = "label exp-label-text";
             labelText.innerHTML = title;
 
             label.target = "_blank";
