@@ -7,7 +7,7 @@ function mapExperienceData() {
 
     let exp = [
         {
-            "org": "Arda",
+            "org": "Arda / Abnous",
             "position": "Mobile Developer (Full Time)",
             "duration": "Jun 2023 - Present",
             "logo": "arda.png",
